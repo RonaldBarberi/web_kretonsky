@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kretonsky</title>
+    <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="{% static 'data/images/icon_to_page.png' %}" type="image/x-icon" class="icon-page">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main_container">
+            <h1 class="name_web">Kretonsky Web</h1>
+            <div class="right_section">
+                <p class="introduction">
+                    Por favor, incluye el origen desde el cual me visitas. Esto me ayuda a enfocar mi progreso y a impulsar mi desarrollo tanto personal como profesional. ¡Muchas gracias!
+                </p>
+                <form class="option_sing_up" action="{% url 'send_message' %}" method="POST">
+                    <div class="input-container">
+                        <input type="text" name="message" placeholder="Origen" required minlength="5" class="styled-input">
+                        <input type="submit" value="Enviar" class="styled-button">
+                    </div>
+                {% csrf_token %}
+                </form>
+                <p class="info-script">
+                    (Al envíar tú origen, se remitira un mensaje a Telegram con la notificación de tú visita. Backend desarrollado con Django).
+                </p>
+            </div>
+        </div>
+        <footer class="developer-by">
+            Developer by: Ronald Barberi
+        </footer>
+    </div>
+</body>
+</html>

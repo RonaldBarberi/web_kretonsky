@@ -1,0 +1,93 @@
+.icon-page {
+    width: 250px; /* La imagen ocupa todo el ancho de la primera celda */
+    height: 250px; /* La imagen ocupa toda la altura de la primera celda */
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover; /* Recorta y ajusta la imagen */
+    border: 5px solid #333;
+}
+
+html, body {
+    /* height: 100%; */
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+    display: flex; /* Hace que el body funcione como contenedor flex */
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado en los enlaces */
+}
+
+button {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Fira Code', monospace;
+    padding: 5%;
+    border-radius: 25px;
+}
+
+.profile {
+    flex: 0 0 45%; /* Ocupa el 45% del ancho del body */
+    display: grid;
+    grid-template-rows: 260px 40px 100px 50px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.profile .img-profile {
+    margin-bottom: 1rem; /* Espacio entre la primera y segunda fila */
+}
+
+.img-profile {
+    width: 250px; /* La imagen ocupa todo el ancho de la primera celda */
+    height: 250px; /* La imagen ocupa toda la altura de la primera celda */
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover; /* Recorta y ajusta la imagen */
+    border: 5px solid #333;
+}
+
+.information {
+    flex: 0 0 55%; /* Ocupa el 30% del ancho del body */
+    background-color: #cecece;
+    color: black;
+    display: grid;
+    grid-template-rows: 100px 250px 100px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.title-information {
+    margin-bottom: 1rem; /* Espacio entre la primera y segunda fila */
+}
+
+.about-me {
+    padding: 10%; /* Ajusta el padding según sea necesario */
+    min-height: auto; /* Asegura que la altura se ajuste automáticamente */
+    height: auto; /* Permite que crezca con el contenido */
+    box-sizing: border-box; /* Incluye el padding en el tamaño total del contenedor */
+}
+
+.buttons-page {
+    display: flex;
+    justify-content: space-between; /* Coloca los botones en extremos opuestos */
+    width: 300px; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+/* CSS para el efecto de aparición */
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
