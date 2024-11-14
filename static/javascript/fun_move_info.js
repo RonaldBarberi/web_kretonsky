@@ -74,19 +74,45 @@ function main() {
         },
         {
             title: "</Data Science>",
-            about: `Cuento con una experiencia `
+            about: `Tengo amplia experiencia en el análisis y manipulación de datos, con un sólido dominio de herramientas de programación 
+            y técnicas de Big Data para gestionar grandes volúmenes de información. He desarrollado modelos predictivos, incluyendo 
+            regresión, árboles de decisión, redes neuronales y modelos de ensemble, y actualmente profundizo en Deep Learning para mejorar 
+            el uso de redes neuronales. Cuento con 3 años de experiencia aplicando diversos procesos y modelos de Machine Learning, 
+            utilizando métodos estadísticos para asegurar la precisión y fiabilidad en la interpretación de los datos.
+            
+            (3 años de experiencia).`
         },
         {
             title: "</Data Analyst>",
-            about: "Aspirar a contribuir en proyectos innovadores de análisis de datos y desarrollo de software, con un enfoque en soluciones eficientes y escalables."
+            about: `Tengo amplia experiencia en manipulación de datos y generación de informes, realizando análisis estadísticos y diversas 
+            técnicas para extraer y obtener información de bases de datos. Cuento con sólidos conocimientos en depuración y limpieza de 
+            datos, asegurando la calidad y precisión de la información procesada. Además, desarrollo visualizaciones gráficas efectivas 
+            que representan los resultados del análisis de forma clara y comprensible, apoyado en un profundo conocimiento y habilidades 
+            comerciales.
+            
+            (5 años de experiencia).`
         },
         {
             title: "</Data Engeineer>",
-            about: "Aspirar a contribuir en proyectos innovadores de análisis de datos y desarrollo de software, con un enfoque en soluciones eficientes y escalables."
+            about: `Tengo un extenso conocimiento en bases de datos relacionales y no relacionales, así como en almacenamiento de datos 
+            (Data Warehousing), asegurando un ciclo de vida eficiente de la información. Cuento con amplia experiencia en la creación de 
+            procesos ETL, uso del framework Apache Spark y técnicas de web scraping para la extracción de datos. También tengo experiencia 
+            en servicios en la nube como AWS, Azure y Google Cloud. Manejo lenguajes de programación para establecer procesos autosostenibles, 
+            lo que me ha permitido desarrollar competencias en Big Data, gestionando información en tiempo real para diversos propósitos, 
+            siempre con una arquitectura escalable y optimizando el consumo de recursos. 
+        
+            (5 años de experiencia).`
         },
         {
-            title: "</Developer Backend>",
-            about: "Aspirar a contribuir en proyectos innovadores de análisis de datos y desarrollo de software, con un enfoque en soluciones eficientes y escalables."
+            title: "</Developer Backend Junior>",
+            about: `Recientemente he comenzado mi experiencia como Desarrollador, enfocándome en la implementación de aplicaciones web para 
+            la gestión de tareas y desarrollo de proyectos que permiten realizar análisis exploratorio de datos (EDA) en tiempo real. Trabajo 
+            con una estructura sólida tanto en el frontend como en el backend, y he desarrollado proyectos personales, incluido mi portafolio 
+            actual. Tengo experiencia en conexiones con bases de datos SQL y NoSQL, y uso de ORM. Además, implemento comunicación entre 
+            servicios mediante consumo de APIs REST y gestiono el control de versiones. Diseño arquitectura de software escalable y de larga 
+            vida útil, apoyándome en contenedores y orquestación para optimizar el rendimiento del proyecto.
+
+            (1 año de experiencia).`
         }
     ];
 
