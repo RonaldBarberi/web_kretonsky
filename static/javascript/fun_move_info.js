@@ -93,7 +93,7 @@ function main() {
             (5 años de experiencia).`
         },
         {
-            title: "</Data Engeineer>",
+            title: "</Data Engineer>",
             about: `Tengo un extenso conocimiento en bases de datos relacionales y no relacionales, así como en almacenamiento de datos 
             (Data Warehousing), asegurando un ciclo de vida eficiente de la información. Cuento con amplia experiencia en la creación de 
             procesos ETL, uso del framework Apache Spark y técnicas de web scraping para la extracción de datos. También tengo experiencia 
@@ -104,7 +104,7 @@ function main() {
             (5 años de experiencia).`
         },
         {
-            title: "</Developer Backend Junior>",
+            title: "</Backend Developer Junior>",
             about: `Recientemente he comenzado mi experiencia como Desarrollador, enfocándome en la implementación de aplicaciones web para 
             la gestión de tareas y desarrollo de proyectos que permiten realizar análisis exploratorio de datos (EDA) en tiempo real. Trabajo 
             con una estructura sólida tanto en el frontend como en el backend, y he desarrollado proyectos personales, incluido mi portafolio 
